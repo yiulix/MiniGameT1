@@ -24,10 +24,12 @@ public class Character
     }
 }
 
-public static class CharactersData
+public static class GameData
 {
     public static Character c0;
     public static Character c1;
     public static Character c2;
+
+    public static int floor = 1;
 
 }

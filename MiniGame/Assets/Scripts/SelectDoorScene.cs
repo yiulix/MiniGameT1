@@ -1,6 +1,5 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class SelectDoorScene : MonoBehaviour
 {
@@ -25,6 +24,7 @@ public class SelectDoorScene : MonoBehaviour
     public void SelectDoor1()
     {
         Debug.Log("SelectDoor1");
+        SceneManager.LoadScene("Battle");
     }
 
     public void SelectDoor2()
